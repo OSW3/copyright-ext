@@ -1,0 +1,20 @@
+{
+    "name": "osw3/copyright-ext",
+    "description": "Lazy copyright injection",
+    "type": "bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arnaud BODEL",
+            "email": "contact@osw3.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OSW3\\Extension\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/twig-pack": "^1.0"
+    }
+}
